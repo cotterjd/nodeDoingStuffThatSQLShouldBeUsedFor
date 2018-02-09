@@ -1,0 +1,13 @@
+Instructions
+
+1. Merge the Vet List and Vet Email List tables into one master table containing all the elements/fields of both tables, but not duplicating the fields. Go through Vet list and find dirty match on Vet Name, Zipcode, etc. from email table and append fields email, website phone number from email list into vet list.
+
+2. Go through Animal Hospital list and create many many table Vets to Animal Hospital based on dirty tracking on account name, Zipcode, etc.
+
+ 
+
+End Result = two tables.  1) Vet List and 2) Animal Hospital List.
+
+ 
+
+The vet list will have a relationship w/Animal Hospital list.

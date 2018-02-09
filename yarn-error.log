@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/Cellar/node/8.9.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/links:/usr/local/bin/my_commands:~/.gem/ruby/2.0.0/bin:~/opt/terraform:~/Library/Python/3.6/bin:/Users/user/Library/Caches/pip:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/go/bin:~/.cabal/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "Vet Db Project",
+    "version": "1.0.0",
+    "description": "Merging tables",
+    "main": "mergeTables.js",
+    "scripts": {
+      "test": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "node",
+      "excel",
+  		"exceljs",
+    ],
+    "author": "Jordan Cotter",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+      "data.task": "^3.1.1",
+      "exceljs": "^0.2.38",
+      "lodash": "^4.17.2",
+      "ramda": "^0.22.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/user/Development/vetDb/package.json: Unexpected token ] in JSON at position 262
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/util/fs.js:554:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at <anonymous>

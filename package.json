@@ -1,0 +1,31 @@
+{
+  "name": "vet_db_project",
+  "version": "1.0.0",
+  "description": "Merging tables",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "excel",
+    "exceljs"
+  ],
+  "author": "Jordan Cotter",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "control.async": "^0.5.3",
+    "data.task": "^3.1.1",
+    "exceljs": "^0.2.38",
+    "lodash": "^4.17.2",
+    "ramda": "^0.22.1"
+  }
+}
